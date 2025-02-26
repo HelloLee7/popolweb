@@ -1,3 +1,15 @@
+/* 
+기능설명!!!!!!!!!
+
+슬라이더의 기본 구조 설정 (.slick-slider, .slick-list)
+슬라이더 트랙 및 애니메이션 효과 (.slick-track, .slick-slide)
+드래그 및 터치 이벤트 관련 스타일 (.slick-list.dragging, .slick-slide.dragging img)
+슬라이드 방향 및 반응형 설정 ([dir='rtl'] .slick-slide)
+버튼 및 화살표 관련 스타일 (.slick-arrow.slick-hidden) */
+
+
+
+
 /* Slider */
 .slick-slider
 {

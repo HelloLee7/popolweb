@@ -1,0 +1,35 @@
+jquery-1.12.4.min.js
+
+jQuery 1.12.4 버전 (구버전, 최신 버전 사용 권장)
+공식 사이트 또는 CDN에서 다운로드 가능
+최신 버전: jQuery 최신 버전 다운로드
+modernizr-3.6.0.min.js
+
+Modernizr: HTML5 & CSS3 기능 지원 여부를 감지하는 라이브러리
+공식 사이트에서 최신 버전 다운로드 가능
+CDN: Modernizr 3.6.0
+bootstrap.min.js
+
+Bootstrap의 JavaScript 파일 (버전 정보 없음, Bootstrap 4 또는 5일 가능)
+공식 사이트에서 최신 버전 다운로드 가능
+CDN: Bootstrap JS CDN
+jquery.appear.min.js
+
+특정 요소가 화면에 나타날 때 이벤트를 발생시키는 jQuery 플러그인
+GitHub 저장소에서 다운로드 가능
+CDN 없음 (GitHub에서 직접 다운로드 필요)
+jquery.counterup.min.js
+
+숫자가 증가하는 애니메이션 효과를 추가하는 jQuery 플러그인
+GitHub 저장소에서 다운로드 가능
+CDN: Counter-Up CDN
+jquery.easing.min.js
+
+다양한 이징(easing) 애니메이션 효과를 제공하는 jQuery 플러그인
+공식 사이트에서 다운로드 가능
+CDN: jQuery Easing CDN
+jquery.magnific-popup.min.js
+
+이미지/비디오/HTML 콘텐츠의 모달 팝업을 만드는 jQuery 플러그인
+공식 사이트에서 다운로드 가능
+CDN: Magnific Popup CDN

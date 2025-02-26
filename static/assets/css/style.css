@@ -1,30 +1,60 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Unfold - Personal Resume & CV Template
-    Template URI: site.com
-    Description: Unfold Personal Resume & CV Template
-    Author: Uideck
-    Author URI: https://uideck.com/
-    Support: https://uideck.com/support/
-    Version: 1.0
+1. 공통 스타일(Common)
+@import를 사용하여 **Google Fonts (Poppins 폰트)**를 불러옵니다.
+body, h1 ~ h6, p, ul, a 등의 기본 스타일을 설정합니다.
+버튼 스타일(.main-btn), 섹션 제목 스타일(.section-title), 기본 레이아웃 스타일을 지정합니다.
 
------------------------------------------------------------------------------------
+2. 헤더(HEADER)
+.navigation: 네비게이션 바의 스타일을 설정합니다.
+sticky 클래스로 스크롤 시 상단 고정 기능을 추가합니다.
+모바일(작은 화면)에서는 햄버거 메뉴 스타일을 적용합니다.
+.header-content: 홈페이지 상단의 메인 배너 스타일을 지정합니다.
+.header-image: 프로필 이미지(이력서 사진 등) 스타일을 정의합니다.
+.header-social: 소셜 미디어 아이콘 스타일을 적용합니다.
 
-    CSS INDEX
-    ===================
+3. 소개(ABOUT)
+.about-content: 자기소개 영역의 텍스트 스타일을 설정합니다.
+.about-skills: 기술 스킬 바(진행률 바) 스타일을 설정합니다.
+.progress-line을 활용하여 애니메이션 효과를 추가합니다.
 
-    1.COMMON
-	2.HEADER
-    3.ABOUT
-    4.SERVICES
-    4.CALL TO ACTION
-    5.WORK
-    6.PRICING
-    7.BLOG
-    8.CONTACT
-    9.FOOTER
-    10.PAGE BANNER
-    10.SINGLE BLOG PAGE
+4. 서비스(SERVICES)
+.single-service: 서비스 항목(예: 웹 개발, UI/UX 디자인 등)의 스타일을 정의합니다.
+.service-icon: 서비스 아이콘 스타일 설정 (font-size: 60px).
+
+5. 작업(WORK)
+.single-work: 포트폴리오 작업 항목(이미지 포함)의 스타일을 설정합니다.
+.work-overlay: 마우스 오버 시 나타나는 오버레이 효과 추가.
+.work-content: 포트폴리오 제목 및 액션 버튼 스타일 지정.
+
+6. 가격(서비스 요금) (PRICING)
+.single-pricing: 가격표 스타일을 설정합니다.
+.pricing-package: 요금제 상단 제목 스타일.
+.pricing-body: 요금제 리스트 스타일.
+.pricing-btn: 가격표 버튼 스타일.
+
+7. 블로그(BLOG)
+.single-blog: 블로그 게시글 스타일.
+.blog-image: 블로그 썸네일 이미지 스타일.
+.blog-content: 블로그 텍스트 스타일.
+.blog-title: 블로그 제목 스타일.
+
+8. 연락처(CONTACT)
+.contact-box: 연락처 정보(전화, 이메일 등) 스타일 설정.
+.single-form: 입력 폼 스타일 (input, textarea 스타일 포함).
+.contact-map: Google Maps 스타일 적용.
+
+9. 푸터(FOOTER)
+.footer-widget: 푸터 배경 및 색상 설정.
+.footer-content: 푸터 텍스트 스타일.
+.back-to-top: 스크롤 최상단 이동 버튼 스타일.
+
+10. 페이지 배너 & 블로그 상세 페이지
+.page-banner: 페이지 상단 배너 스타일.
+.page-banner-content: 페이지 제목, 브레드크럼 스타일.
+.single-blog-post: 블로그 상세 페이지 스타일.
+.blog-comment: 댓글 섹션 스타일.
+.blog-sidebar: 블로그 사이드바 스타일(검색, 카테고리, 태그, 최근 게시물 등).
 
 -----------------------------------------------------------------------------------*/
 /*===========================

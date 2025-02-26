@@ -1,4 +1,16 @@
 /* Magnific Popup CSS */
+
+/* 팝업의 전체적인 레이아웃 스타일링 즉
+
+이 CSS는 Magnific Popup 플러그인의 스타일을 조정하는 역할을 한다는 뜻이다
+주요 기능은 이렇다!!!
+
+배경 및 전체 팝업 스타일링 (.mfp-bg, .mfp-wrap)
+팝업 내부 콘텐츠 스타일링 (.mfp-content, .mfp-close)
+이미지 및 갤러리 스타일링 (.mfp-image-holder, .mfp-figure)
+네비게이션(이전/다음 버튼) 디자인 (.mfp-arrow)
+반응형 디자인 지원 (미디어 쿼리 적용) */
+
 .mfp-bg {
   top: 0;
   left: 0;
