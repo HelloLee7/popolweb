@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+Unfold - Personal Portfolio & CV Template
+{% endblock %}
+
+{% block content %}
+  <!-- 첫 번째 섹션: Hero, first.html -->
+  {% include 'first.html' %}
+  
+  <!-- 두 번째 섹션: About, second.html -->
+  {% include 'second.html' %}
+  
+  <!-- 세 번째 섹션: Services, thirds.html -->
+  {% include 'thirds.html' %}
+  
+  <!-- 네 번째 섹션: Portfolio / Works, fourth.html -->
+  {% include 'fourth.html' %}
+  
+  <!-- 다섯 번째 섹션: Pricing, fifth.html -->
+  {% include 'fifth.html' %}
+  
+  <!-- 여섯 번째 섹션: Blog, sixth.html -->
+  {% include 'sixth.html' %}
+  
+  <!-- 일곱 번째 섹션: Contact, last.html -->
+
+  {% include 'seven.html' %}
+
+
+  {% include 'last.html' %}
+{% endblock %}

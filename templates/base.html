@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>{% block title %}Unfold - Personal Portfolio & CV Template{% endblock %}</title>
+
+    <!--====== CSS Files ======-->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/images/favicon.png') }}" type="image/png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/LineIcons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/default.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+
+    <!--====== JS Files ======-->
+    <script src="{{ url_for('static', filename='assets/js/vendor/modernizr-3.6.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/vendor/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/parallax.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/waypoints.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/ajax-contact.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.appear.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/scrolling-nav.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.easing.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/validator.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+</body>
+
+
+</html>
